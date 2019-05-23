@@ -1,0 +1,200 @@
+.header {
+	width:1250px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	background-color: #4f4e4d;
+	justify-content: center;
+	color:white;
+	padding:10px;
+
+	}
+
+.flex-container2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+.flex-container > div {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top: 0px;
+	padding-bottom:0px;
+}
+
+.bphoto {
+	background-image: url(../Images2/aspens_big.jpg);
+	height:60vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items:center;
+	margin-bottom: 0px;
+
+}
+ 
+.button {
+	font-style: bold;
+	font-size: 60px;
+	padding:10px;
+	background-color:rgba(255,255,255,.5);
+	color:black;
+
+}
+
+.photobg {
+	border:1px solid white;
+}
+
+.c1 {
+	background-color:#ec7e38;
+	order:1;
+	flex:2;
+	margin-top: 0px;
+	text-align: center;
+}
+
+
+.c2 {
+	order:2;
+	flex:2;
+	background-color: #e8834b;
+	text-align: center;
+}
+
+.c3 {
+	order:3;
+	flex:2;
+	background-color: #e89160;
+	text-align:center;
+}
+
+.c4 {
+	order:4;
+	flex:2;
+	background-color: #e89d74;
+	text-align:center;
+}
+
+
+img {
+	width: 200px;
+
+}
+
+
+.anseltech {
+	text-align: center;
+	color:#ec7e38;
+}
+
+.cleared {
+	display: flow-root;
+}
+
+.leftcolumn {
+	float: left;
+	width:45%;
+}
+
+.rightcolumn {
+	float:right;
+	width:45%;
+}
+
+.hleft {
+	float:left;
+}
+
+.anseltechphotos {
+	width:125px;
+	float:left;
+	padding-right:5px;
+
+}
+
+.atechbottom {
+	width:125px;
+	float:left;
+	padding-right:5px;
+	padding-bottom:10px;
+}
+
+hr {
+	size: 20px;
+	border-color:#ec7e38;
+
+}
+
+.famoustitle {
+	text-align: center;
+	color: #ec7e38;
+}
+
+
+.hd {
+	width:450px;
+	float:right;
+	border:2px solid #ec7e38;
+}
+
+footer {
+		border-top:2px solid black;
+		border-bottom:2px solid black;
+	
+}
+
+.f1 {
+	flex:1;
+	text-align:center;
+
+}
+
+.vr {
+	width:2px;
+    background-color:#000;
+    position:absolute;
+    top:2305px;
+    bottom:0;
+    align-content: center;
+    height:70px;
+}
+
+.f2 {
+	flex:1;
+	text-align:center;
+}
+
+.flex-container3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+a.a1:hover {
+	color:white;
+	background-color:#ec7e38;
+}
+
+a.a1:visited {
+	color:white;
+	color: #e89d74;
+}
+
+@media screen and (max-width: 600px) {
+	.flex-container2 {
+		flex-direction: column;
+	}
+
+	.hd {
+		width:200px;
+	}
+}
